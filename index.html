@@ -11,6 +11,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&family=Roboto:ital,wght@0,300;1,100;1,500&display=swap" rel="stylesheet">
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">        
+
         <link rel="stylesheet" href="./estilos/estilo.css">
         <title>Athenea Fotografía</title>
     </head>
@@ -46,8 +48,8 @@
                     y todo tipo de eventos, como bosas, 15 años, aniversarios, publicidad, lanzamientos de productos, etc...
                     </p>
                     <div class="img-mini">
-                        <img class="imagen-mini" src="./assets/img/set-fotografico1.jpg" alt="Imagen de estudio fotográfico exterior con pequeña pérgola.">
-                        <img class="imagen-mini oculta" src="./assets/img/set-fotografico2.jpg" alt="Imagen de estudio fotográfico con hamaca y silla.">
+                        <img data-aos="fade-right" class="imagen-mini" src="./assets/img/set-fotografico1.jpg" alt="Imagen de estudio fotográfico exterior con pequeña pérgola.">
+                        <img data-aos="fade-left" class="imagen-mini oculta" src="./assets/img/set-fotografico2.jpg" alt="Imagen de estudio fotográfico con hamaca y silla.">
                     </div>
                 </section>
             </main>
@@ -72,5 +74,8 @@
                 </section>
             </footer>
         </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+        <script>AOS.init();</script>     
     </body>
 </html>

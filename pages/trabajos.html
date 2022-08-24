@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&family=Roboto:ital,wght@0,300;1,100;1,500&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">     
+
     <link rel="stylesheet" href="../estilos/estilo.css"> 
     <title>Athenea Fotografía</title>
 </head>
@@ -32,28 +34,28 @@
             <h1>Nuestro Trabajo</h1>
             
             <section class="galeria-foto">
-                <div class="foto-izq-fila1">
+                <div data-aos="flip-right" class="foto-izq-fila1">
                     <img class="img-trabajo" src="../assets/img/foto9_1.jpg" alt="joven posando en tranquera">            
                 </div>
-                <div class="foto-der-vertical">
+                <div data-aos="flip-left" class="foto-der-vertical">
                     <img class="img-trabajo" src="../assets/img/foto5_1.jpg" alt="muchacha posando junto a un arbol">
                 </div>                            
-                <div class="foto-izq-fila2">
+                <div data-aos="flip-right" class="foto-izq-fila2">
                     <img class="img-trabajo" src="../assets/img/foto2_1.jpg" alt="imagen de chica con bengala color rosa junto a pared con graffiti colorido.">                        
                 </div>
-                <div class="foto-izq-fila3">
+                <div data-aos="flip-left" class="foto-izq-fila3">
                     <img class="img-trabajo" src="../assets/img/foto7.jpg" alt="Imagen de muchacha recostada sobre una mesa espejada.">
                 </div>
-                <div class="foto-der-fila3">
-                    <img class="img-trabajo" src="../assets/img/foto8.jpg" alt="Foto de chica posando junto a una bicicleta">            
+                <div data-aos="flip-right" class="foto-der-fila3">
+                    <img class="img-trabajo" src="../assets/img/Foto8.jpg" alt="Foto de chica posando junto a una bicicleta">            
                 </div>                
-                <div class="foto-izq-vertical">
+                <div data-aos="flip-left" class="foto-izq-vertical">
                     <img class="img-trabajo" src="../assets/img/foto6_1.jpg" alt="Foto de chica en un paisaje otoñal.">            
                 </div>
-                <div class="foto-der-fila4">
+                <div data-aos="flip-right" class="foto-der-fila4">
                     <img class="img-trabajo" src="../assets/img/foto3.jpg" alt="Imagen de joven sentada en la vereda.">
                 </div>                    
-                <div class="foto-der-fila5">
+                <div data-aos="flip-left" class="foto-der-fila5">
                     <img class="img-trabajo" src="../assets/img/foto4.jpg" alt="Foto de chica posando en una avenida de la ciudad.">
                 </div>                 
             </section>
@@ -90,6 +92,8 @@
         
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+    <script>AOS.init();</script>    
 </body>
 </html>
 
